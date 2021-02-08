@@ -1,0 +1,27 @@
+.map {
+  height: 40vh;
+  z-index: 50;
+}
+.contacts-main-wrapper {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+}
+.address-wrapper {
+  margin-top: 50px;
+  color: #242424;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .address-wrapper {
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+  }
+  .address-wrapper h4 {
+    text-align: center;
+  }
+}
