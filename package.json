@@ -1,6 +1,5 @@
 {
   "name": "bootstrap5-sandbox-react",
-  "homepage": "https://olkrysiuk.github.io/ecowebapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,12 +19,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
+    "serve": "^11.3.2",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
